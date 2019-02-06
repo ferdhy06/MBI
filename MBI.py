@@ -69,9 +69,9 @@ def prepare():
 	cout=0
 	cou2=0
 	try:
-		file=raw_input("\n\n%sUsername List: "%(warn))
+		file=raw_input("\n\n%sUsername List   :"%(warn))
 		usname=open(file).read().splitlines()
-		password=raw_input("%sPassword to crack "%(warn))
+		password=raw_input("%sPassword to crack :"%(warn))
 		if (password is ""):
 			print("{}none passwords"%(warning))
 			exit()
